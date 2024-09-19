@@ -1,0 +1,36 @@
+Test cases
+
+Test case: 1
+Test Case Name: Empty Input.
+Input 	            Output
+Empty input	        0
+
+Test case: 2
+Test Case Name: Input 0.
+Input 	  Output
+0	        0
+
+Test case: 3
+Test Case Name: Return sum for two positive numbers.
+Input 	    Output
+1 and 2	    3
+
+Test case: 4
+Test Case Name: Return Exception for if any negative number.
+Input 	      Output
+-1 and 2	    Runtime_error
+
+Test case: 5
+Test Case Name: Return sum of numbers if Delimiter is in between.
+Input 	      Output
+1\n2,3	      6
+
+Test case: 6
+Test Case Name: Ignore if number is Greater than 1000.
+Input 	      Output
+1, 1001	    1
+
+Test case: 7
+Test Case Name: Return Sum of numbers if custom Delimiters are in between numbers.
+Input 	     Output
+//;\n1;2	   3
