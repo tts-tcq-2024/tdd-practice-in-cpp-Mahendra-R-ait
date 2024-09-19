@@ -14,23 +14,28 @@ Test case: 3
 Test Case Name: Return sum for two positive numbers.
 Input 	    Output
 1 and 2	    3
+3 and 4     7
 
 Test case: 4
 Test Case Name: Return Exception for if any negative number.
 Input 	      Output
 -1 and 2	    Runtime_error
+-2 and -1     Runtime_error
 
 Test case: 5
 Test Case Name: Return sum of numbers if Delimiter is in between.
 Input 	      Output
 1\n2,3	      6
+2\n, 5        7
 
 Test case: 6
 Test Case Name: Ignore if number is Greater than 1000.
 Input 	      Output
-1, 1001	    1
+1, 1001	      1
+5, 2000       5
 
 Test case: 7
 Test Case Name: Return Sum of numbers if custom Delimiters are in between numbers.
 Input 	     Output
 //;\n1;2	   3
+1;3;\n2      6
