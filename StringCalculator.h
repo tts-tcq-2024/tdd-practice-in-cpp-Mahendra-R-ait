@@ -1,4 +1,4 @@
-#ifndef STRINGCALCULATOR_H
+#define STRINGCALCULATOR_H
 #define STRINGCALCULATOR_H
  
 #include <string>
