@@ -1,0 +1,9 @@
+﻿Test case ID,Test Case Name,Test Case Description,Input,Output
+1,ExpectZeroForEmptyInput,Empty Input,""" """,0
+2,ExpectZeroForSingleZero,Input 0,0,0
+3,ExpectSumForTwoNumbers, Return sum for two positive numbers,1 and 2,3
+4,ExpectExceptionForNegativeNumbers,Return Exception for if any negative number,"""-1 and 2""",Runtime_error
+5,ExpectSumWithNewlineDelimiter,Return sum of numbers if Delimiter is in between,"1\n2,3",6
+6,IgnoreNumbersGreaterThan1000,Ignore if number is Greater than 1000,"1, 1001",1
+7,ExpectSumWithCustomDelimiter,Return Sum of numbers if custom Delimiters are in between numbers,//;\n1;2,3
+8,OnlyonenumerwithDelimiter,Return Not Ok when one number and Delimeter,"1,\n",not need to prove it - just clarifying
